@@ -2,8 +2,8 @@ let target = document.querySelector("#dynamic");
 
 // 지워졌을 때 다시 문자열 배열 출력
 function randomString() {
-    let stringArr = ["Lean to HTML", "Lean to CSS",
-        "Lean to JAVASCRIPT", "Lean to C language", "Lean to JAVA"];
+    let stringArr = ["Learn to HTML", "Learn to CSS",
+        "Learn to JAVASCRIPT", "Learn to C language", "Learn to JAVA"];
     let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
     let selectStringArr = selectString.split("");
 
